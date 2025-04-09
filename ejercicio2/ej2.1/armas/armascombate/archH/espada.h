@@ -3,6 +3,6 @@
 class Espada: public ArmasCombate{
     public:
         Espada();
-        int filo();
+        int filo;
         virtual void afilar();
 };

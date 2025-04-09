@@ -3,16 +3,16 @@
 class ItemsMagicos: public Arma{
     public: 
         //atributos 
-        string tipoDeDaño;
+        string tipoDeItem;
         float peso; 
         int nivelDePoder; //determina su dano / efectividad -
         int durabilidad;  //cuantos usos soporta 
-        string resistenciaEspecial; //resistencia a cierto tipos de ataque (fuego -agua)
+        string resistencia; //resistencia a cierto tipos de ataque (fuego -agua)
         
-        string tipoDeItem; 
         
-        ItemsMagicos(string tipoDeDaño , float peso , int nivelDePoder , int durabilidad , string resistenciaEspecial , string tipoDeItem) 
-        : tipoDeDaño(tipoDeDaño) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistenciaEspecial(resistenciaEspecial), tipoDeItem(tipoDeItem){} 
+        
+        ItemsMagicos(string tipoDeItem , float peso , int nivelDePoder , int durabilidad , string resistencia) 
+        : tipoDeItem(tipoDeItem) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistencia(resistencia){} 
 
         virtual void usar() override;
         virtual void golpear()override;

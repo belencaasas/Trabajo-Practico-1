@@ -3,6 +3,6 @@
 class Caballero: public Guerreros{
     public: 
         Caballero();
-        int habilidadConArmas();
+        int habilidadConArmas;
         virtual void desafiar();
 };

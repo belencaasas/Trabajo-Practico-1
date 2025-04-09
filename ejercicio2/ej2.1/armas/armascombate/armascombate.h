@@ -3,16 +3,16 @@
 class ArmasCombate : public Arma{ 
     public:
         //atributos 
-        string tipoDeDaño;
+        string tipoDeArma;
         float peso; 
         int nivelDePoder; //determina su dano / efectividad -
         int durabilidad;  //cuantos usos soporta 
-        string resistenciaEspecial; //resistencia a cierto tipos de ataque (fuego -agua)
+        string resistencia; //resistencia a cierto tipos de ataque (fuego -agua)
         
-        string tipoDeArma;
+        
 
-        ArmasCombate(string tipoDeDaño , float peso , int nivelDePoder , int durabilidad , string resistenciaEspecial , string tipoDeItem) 
-        : tipoDeDaño(tipoDeDaño) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistenciaEspecial(resistenciaEspecial), tipoDeArma(tipoDeArma){} 
+        ArmasCombate(string tipoDeArma , float peso , int nivelDePoder , int durabilidad , string resistencia) 
+        : tipoDeArma(tipoDeArma) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistencia(resistencia){} 
 
 
         virtual void usar() override;

@@ -3,6 +3,6 @@
 class Hechicero: public Magos{
     public: 
         Hechicero(); 
-        int sabiduria(); 
+        int sabiduria; 
         virtual void leerFuturo();
 };

@@ -3,6 +3,6 @@
 class Garrote: public ArmasCombate{
     public:
         Garrote();
-        int gravedadDeGolpe();
+        int gravedadDeGolpe;
         virtual void golpear();
 };

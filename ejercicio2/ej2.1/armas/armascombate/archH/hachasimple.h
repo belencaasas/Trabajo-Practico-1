@@ -3,6 +3,6 @@
 class HachaSimple: public ArmasCombate{
     public:
         HachaSimple();
-        int afilado();
+        int afilado;
         virtual void afilar();
 };

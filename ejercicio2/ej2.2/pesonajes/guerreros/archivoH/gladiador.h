@@ -3,6 +3,6 @@
 class Gladiador: public Guerreros{
     public:
         Gladiador();
-        int fuerza();
+        int fuerza;
         virtual void llamaAlPublico();
 };

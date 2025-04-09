@@ -3,6 +3,6 @@
 class HachaDoble: public ArmasCombate{
     public:
         HachaDoble();
-        int fuerzaRequerida(); //fuerza que se necesita para lanzarla
+        int fuerzaRequerida; //fuerza que se necesita para lanzarla
         virtual void lanzar();
 };
