@@ -1,4 +1,4 @@
-#include "magos.h"
+#include "../../../archivosH/magos.h"
 
 void Magos::recargarEnergia(){
     cout << "Recargando energia..."<< endl; 
@@ -11,7 +11,7 @@ void Magos::atacar(){
 }
 
 void Magos::bloquear(){
-    vida -= 20
+    vida -= 20;
     cout << "El mago bloqua el ataque con defensa de: " << defensa<< " Vida actual: " << endl;
 }
 

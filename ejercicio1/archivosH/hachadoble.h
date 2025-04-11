@@ -1,4 +1,4 @@
-#include "../armascombate.h"
+#include "armascombate.h"
 
 class HachaDoble: public ArmasCombate{
     public:

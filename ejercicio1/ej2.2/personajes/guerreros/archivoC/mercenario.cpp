@@ -1,4 +1,4 @@
-#include "../archivoH/mercenario.h"
+#include "../../../../archivosH/mercenario.h"
 
 Mercenario::Mercenario():
     Guerreros(100,60,60,85,90), punteria(100){}

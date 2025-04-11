@@ -1,4 +1,4 @@
-#include "../itemsmagicos.h"
+#include "itemsmagicos.h"
 
 class Pocion: public ItemsMagicos{
     public: 

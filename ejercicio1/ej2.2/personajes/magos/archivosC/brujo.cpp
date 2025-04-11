@@ -1,4 +1,4 @@
-#include "../archivosH/brujo.h"
+#include "../../../../archivosH/brujo.h"
 
 Brujo::Brujo():
     Magos(100,60,60,90,20), almasRecogidas(50){}

@@ -1,4 +1,4 @@
-#include "../archH/espada.h"
+#include "../../../../archivosH/espada.h"
 
 //def del constructor
 Espada::Espada():

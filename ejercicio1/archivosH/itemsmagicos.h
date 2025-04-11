@@ -1,4 +1,4 @@
-#include "../armas.h"
+#include "armas.h"
 
 class ItemsMagicos: public Arma{
     public: 

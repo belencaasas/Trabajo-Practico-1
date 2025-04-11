@@ -1,4 +1,4 @@
-#include "guerreros.h"
+#include "../../../archivosH/guerreros.h"
 
 void Guerreros::recargarEnergia(){
     cout << "Recargando energia..."<< endl; 
@@ -11,7 +11,7 @@ void Guerreros::atacar(){
 }
 
 void Guerreros::bloquear(){
-    vida -= 20
+    vida -= 20;
     cout << "El guerrero bloqua el ataque con defensa de: " << defensa<< " Vida actual: " << endl;
 
 }

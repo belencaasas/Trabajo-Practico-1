@@ -1,4 +1,5 @@
-#include "itemsmagicos.h"
+#include "../../../archivosH/itemsmagicos.h"
+
 void ItemsMagicos::usar(){
     cout << "Usando el item magico: " << tipoDeItem << endl; 
 }

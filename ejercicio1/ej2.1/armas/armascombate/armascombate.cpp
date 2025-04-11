@@ -1,4 +1,4 @@
-#include "armascombate.h"
+#include "../../../archivosH/armascombate.h"
 
 void ArmasCombate::usar(){
     cout << "Usando el arma de combate: " << tipoDeArma << endl;

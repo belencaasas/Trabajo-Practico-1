@@ -1,4 +1,4 @@
-#include "../magos.h"
+#include "magos.h"
 
 class Conjugador: public Magos{
     public: 

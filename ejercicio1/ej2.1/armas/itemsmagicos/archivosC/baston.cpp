@@ -1,4 +1,5 @@
-#include "../archivosH/baston.h"
+#include "../../../../archivosH/baston.h"
+
 
 Baston::Baston():
     ItemsMagicos( "baston" , 20  , 70 , 30 , "poca"), fuerzaEncantamiento(100)

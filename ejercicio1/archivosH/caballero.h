@@ -1,4 +1,4 @@
-#include "./guerreros.h"
+#include "guerreros.h"
 
 class Caballero: public Guerreros{
     public: 

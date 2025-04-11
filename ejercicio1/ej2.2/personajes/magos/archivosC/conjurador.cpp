@@ -1,4 +1,4 @@
-#include "../archivosH/conjugador.h"
+#include "../../../../archivosH/conjurador.h"
 
 Conjugador::Conjugador():
     Magos(100,40,40,50,20), carisma(80){}
@@ -6,6 +6,6 @@ Conjugador::Conjugador():
 void Conjugador::invocarCriaturas(){ 
     cout << "Conjugador invocando criaturas.." << endl; 
     this->carisma -= 5 ; 
-    cout << "Carisma actulizado del conjugador" << endl
+    cout << "Carisma actulizado del conjugador" << endl;
     
 }

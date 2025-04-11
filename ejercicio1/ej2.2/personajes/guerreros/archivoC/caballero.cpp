@@ -1,4 +1,4 @@
-#include "../archivoH/caballero.h"
+#include "../../../../archivosH/caballero.h"
 
 Caballero::Caballero():
     Guerreros(100,90,90,65,60), habilidadConArmas(100){}

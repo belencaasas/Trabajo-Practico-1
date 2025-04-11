@@ -1,4 +1,4 @@
-#include "../archH/hachadoble.h"
+#include "../../../../archivosH/hachadoble.h"
 
 HachaDoble::HachaDoble():
     ArmasCombate("hacha doble", 50 , 30 , 70, "mucha"), fuerzaRequerida(60){}

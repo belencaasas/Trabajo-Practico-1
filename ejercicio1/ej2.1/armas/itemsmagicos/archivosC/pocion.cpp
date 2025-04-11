@@ -1,4 +1,5 @@
-#include "../archivosH/pocion.h"
+#include "../../../../archivosH/pocion.h"
+
 
 Pocion::Pocion():
     ItemsMagicos( "pocion" , 5  , 60 , 55 , "media"), efecto("invisibilidad")

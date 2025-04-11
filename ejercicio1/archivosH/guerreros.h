@@ -1,4 +1,4 @@
-#include "../personajes.h"
+#include "personajes.h"
 
 class Guerreros: public Personaje{
     public:

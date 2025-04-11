@@ -1,4 +1,5 @@
-#include "../archivosH/amuleto.h"
+#include "../../../../archivosH/amuleto.h"
+
 
 Amuleto::Amuleto():
     ItemsMagicos( "amuleto" ,  5 ,  60 , 60 , "mucha"), poder("curar")

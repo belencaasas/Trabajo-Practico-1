@@ -1,4 +1,4 @@
-#include "../archivoH/paladin.h"
+#include "../../../../archivosH/paladin.h"
 
 Paladin::Paladin():
     Guerreros(100,80,80,50,70), fe(100){}

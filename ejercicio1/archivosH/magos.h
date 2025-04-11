@@ -1,4 +1,4 @@
-#include "../personajes.h"
+#include "personajes.h"
 
 class Magos: public Personaje{
     public:

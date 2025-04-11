@@ -1,4 +1,4 @@
-#include "../magos.h"
+#include "magos.h"
 
 class Nigromante: public Magos{
     public: 

@@ -1,4 +1,4 @@
-#include "../archivosH/nigromante.h"
+#include "../../../../archivosH/nigromante.h"
 
 Nigromante::Nigromante():
     Magos(100,20,20,85,50), necromancia(100){}

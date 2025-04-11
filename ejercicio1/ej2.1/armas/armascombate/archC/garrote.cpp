@@ -1,4 +1,4 @@
-#include "../archH/garrote.h"
+#include "../../../../archivosH/garrote.h"
 
 Garrote::Garrote():
     ArmasCombate("garrote", 40 , 5, 28 , "poca"), gravedadDeGolpe(28){}

@@ -1,4 +1,5 @@
-#include "../archivoH/barbaro.h"
+#include "../../../../archivosH/barbaro.h"
+
 
 Barbaro::Barbaro():
     Guerreros(100,90,90,65,70), rabia(90){}

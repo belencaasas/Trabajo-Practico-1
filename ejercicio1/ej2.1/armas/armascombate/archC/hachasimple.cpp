@@ -1,4 +1,4 @@
-#include "../archH/hachasimple.h"
+#include "../../../../archivosH/hachasimple.h"
 
 HachaSimple::HachaSimple():
     ArmasCombate("hacha simple", 40 , 20 , 55, "mucha"), afilado(50){}

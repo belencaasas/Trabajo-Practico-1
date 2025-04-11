@@ -1,8 +1,8 @@
 #include <iostream>
-#include "ej2.1/armas/armascombate/archH/espada.h"
-#include "ej2.1/armas/itemsmagicos/archivosH/amuleto.h"
-#include "ej2.2/personajes/guerreros/archivoH/barbaro.h"
-#include "ej2.2/personajes/magos/archivosH/brujo.h"
+#include "archivosH/espada.h"
+#include "archivosH/amuleto.h"
+#include "archivosH/barbaro.h"
+#include "archivosH/brujo.h"
 using namespace std;
 
 int main(){
