@@ -5,4 +5,6 @@ class Gladiador: public Guerreros{
         Gladiador();
         int fuerza;
         virtual void llamaAlPublico();
+        void maldad() override;
+
 };

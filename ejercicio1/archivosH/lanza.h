@@ -3,6 +3,8 @@
 class Lanza: public ArmasCombate{
     public:
         Lanza();
-        int alcance;
+        int _alcance;
         virtual void mejorarAlcance();
+        void alcance()override;
+
 };

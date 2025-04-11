@@ -6,3 +6,7 @@ HachaDoble::HachaDoble():
 void HachaDoble::lanzar(){
     cout << "Se ha lanzado el hacha doble.." << endl;
 }
+void HachaDoble::alcance(){
+    int alcance = 80;
+    cout << "El alcance del hacha doble es de " << alcance << endl;
+}

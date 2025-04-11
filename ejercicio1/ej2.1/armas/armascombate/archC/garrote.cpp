@@ -8,4 +8,7 @@ void Garrote::golpear(){
     cout << "La gravedad del golpe del garrote quedo en: " << gravedadDeGolpe << endl; 
 }
 
-
+void Garrote::alcance(){
+    int alcance = 40;
+    cout << "El alcance del garrote es de " << alcance << endl;
+}

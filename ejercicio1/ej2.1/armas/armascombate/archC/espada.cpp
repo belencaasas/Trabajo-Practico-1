@@ -9,3 +9,8 @@ void Espada::afilar(){
     this->filo += 20; 
     cout << "El filo de la espada es: " << filo << endl;
 }
+
+void Espada::alcance(){
+    int alcance = 60;
+    cout << "El alcance de la espada es de " << alcance << endl;
+}

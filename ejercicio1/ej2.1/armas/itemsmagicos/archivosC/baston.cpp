@@ -10,3 +10,8 @@ void Baston::activarEncantamiento(){
     this->fuerzaEncantamiento -= 10; 
     cout << "La fuerza de encantamiento ha quedado en: " << fuerzaEncantamiento << endl;
 }
+
+void Baston::reparar(){
+    durabilidad += 30; //puede mejorar su estado original 
+    cout << "El baston se ha reparado, su durabilidad es: " << durabilidad << endl;
+}

@@ -5,4 +5,6 @@ class LibroDeHechizos : public ItemsMagicos{
         LibroDeHechizos();
         string tipoDeHechizo; //maldicion - curar 
         virtual void usarHechizo();
+        void reparar() override;
+
 };

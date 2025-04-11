@@ -5,4 +5,5 @@ class Espada: public ArmasCombate{
         Espada();
         int filo;
         virtual void afilar();
+        void alcance() override;
 };

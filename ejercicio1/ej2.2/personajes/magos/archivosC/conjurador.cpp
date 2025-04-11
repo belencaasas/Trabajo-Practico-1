@@ -9,3 +9,8 @@ void Conjugador::invocarCriaturas(){
     cout << "Carisma actulizado del conjugador" << endl;
     
 }
+
+void Conjugador::age(){
+    int edad = 60;
+    cout << "La edad del conjugador es " << edad << endl; 
+}

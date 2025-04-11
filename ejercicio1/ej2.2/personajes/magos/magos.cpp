@@ -22,3 +22,8 @@ void Magos::provocar(){
 void Magos::distraer(){
     cout << "El mago esta distrayendo al enemigo, usando su inteligencia: " << inteligencia << endl;
 }
+
+void Magos::setArmas(vector<shared_ptr<Arma>> armas){
+    this->armas = armas;
+
+}

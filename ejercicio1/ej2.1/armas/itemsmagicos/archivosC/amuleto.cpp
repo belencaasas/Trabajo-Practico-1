@@ -8,3 +8,8 @@ Amuleto::Amuleto():
 void Amuleto::habilidadActiva(){
     cout << "Se ha activado la habilidad dde curar." << endl;
 }
+
+void Amuleto::reparar(){
+    durabilidad += 30; //puede mejorar su estado original 
+    cout << "El amuleto se ha reparado, su durabilidad es: " << durabilidad << endl;
+}

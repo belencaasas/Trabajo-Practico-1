@@ -5,4 +5,6 @@ class Hechicero: public Magos{
         Hechicero(); 
         int sabiduria; 
         virtual void leerFuturo();
+        void age() override;
+
 };

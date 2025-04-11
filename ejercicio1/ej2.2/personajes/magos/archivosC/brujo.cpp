@@ -9,3 +9,8 @@ void Brujo::pactarconDemonios(){
     cout << "Cantidad de almas recogidas actualizadas: " << almasRecogidas << endl;
     
 }
+
+void Brujo::age(){
+    int edad = 100;
+    cout << "La edad del brujo es " << edad << endl; 
+}

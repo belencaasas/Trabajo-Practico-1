@@ -7,3 +7,9 @@ void Paladin::escudoDeFe(){
     cout << "creando una barrera divina para protege." << endl; 
     this->fe -= 10;
 }
+
+void Paladin::maldad(){
+    string maldad = "nula" ;
+    cout << "La maldad del paladin es " << maldad << endl;
+
+}

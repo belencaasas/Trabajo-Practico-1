@@ -5,4 +5,5 @@ class Brujo: public Magos{
         Brujo(); 
         int almasRecogidas; // cant de armas brujo ha recolectado 
         virtual void pactarconDemonios();
+        void age() override;
 };

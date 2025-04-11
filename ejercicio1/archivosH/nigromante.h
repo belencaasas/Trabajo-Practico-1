@@ -5,4 +5,6 @@ class Nigromante: public Magos{
         Nigromante(); 
         int necromancia; //habilidad para levantar y controlar muertos 
         virtual void resusitarMuertos();
+        void age() override;
+
 };

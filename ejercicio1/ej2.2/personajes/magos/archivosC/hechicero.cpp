@@ -7,3 +7,8 @@ void Hechicero::leerFuturo(){
     cout << "hechicero leyendo el futuro y tiene una sabiduria de: " << sabiduria << endl;
     
 }
+
+void Hechicero::age(){
+    int edad = 70;
+    cout << "La edad del hechicero es " << edad << endl; 
+}

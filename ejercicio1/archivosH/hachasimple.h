@@ -5,4 +5,6 @@ class HachaSimple: public ArmasCombate{
         HachaSimple();
         int afilado;
         virtual void afilar();
+        void alcance()override;
+
 };

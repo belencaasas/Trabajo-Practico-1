@@ -7,3 +7,9 @@ void Mercenario::usarPunteria(){
     cout << "Mercenario apuntando para disparar con una punteria de " << punteria << endl; 
     this -> punteria -= 10;
 }
+
+void Mercenario::maldad(){
+    string maldad = "mucha" ;
+    cout << "La maldad del mercenario es " << maldad << endl;
+
+}

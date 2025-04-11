@@ -5,4 +5,6 @@ class Garrote: public ArmasCombate{
         Garrote();
         int gravedadDeGolpe;
         virtual void golpear();
+        void alcance()override;
+
 };

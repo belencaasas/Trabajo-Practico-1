@@ -5,4 +5,6 @@ class Pocion: public ItemsMagicos{
         Pocion();
         string efecto;
         virtual void usarPocion(); 
+        void reparar() override;
+
 };

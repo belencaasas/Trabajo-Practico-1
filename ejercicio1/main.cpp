@@ -6,8 +6,9 @@
 using namespace std;
 
 int main(){
-    cout << "------PROBANDO ARMAS------" << endl;
+    cout << "------PROBANDO ARMAS------\n" << endl;
 
+    cout << "......ESPADA......";
     Espada espada; 
     espada.afilar();
 
@@ -19,6 +20,7 @@ int main(){
 
     cout << endl;
 
+    cout <<"......AMULETO......";
     Amuleto amuleto;
     amuleto.habilidadActiva();
 
@@ -28,7 +30,9 @@ int main(){
     amuleto.verDurabilidad();
     amuleto.destruir();
 
-    cout << "\n------PROBANDO PERSONAJES------" << endl;
+    cout << "\n------PROBANDO PERSONAJES------\n" << endl;
+
+    cout <<"......BARBARO......";
 
     Barbaro barbaro;
     barbaro.golpeBrutal();
@@ -40,6 +44,8 @@ int main(){
     barbaro.distraer();
 
     cout << endl; 
+
+    cout <<"......BRUJO......";
 
     Brujo brujo; 
     brujo.pactarconDemonios();

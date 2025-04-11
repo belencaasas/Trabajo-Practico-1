@@ -5,4 +5,6 @@ class Caballero: public Guerreros{
         Caballero();
         int habilidadConArmas;
         virtual void desafiar();
+        void maldad() override;
+
 };

@@ -23,6 +23,3 @@ void ItemsMagicos::verDurabilidad(){
     cout << "La durabilidad del item magico: " << tipoDeItem << " es " << durabilidad << endl;
 }
 
-int main(){
-    return 0;
-}

@@ -14,10 +14,12 @@ class ItemsMagicos: public Arma{
         ItemsMagicos(string tipoDeItem , float peso , int nivelDePoder , int durabilidad , string resistencia) 
         : tipoDeItem(tipoDeItem) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistencia(resistencia){} 
 
-        virtual void usar() override;
-        virtual void golpear()override;
-        virtual void mejorar()override;
-        virtual void destruir()override;
-        virtual void verDurabilidad()override;
+        virtual void reparar() = 0;
+
+        void usar() override;
+        void golpear()override;
+        void mejorar()override;
+        void destruir()override;
+        void verDurabilidad()override;
 
 };

@@ -1,8 +1,11 @@
 #pragma once 
 #include <string>
 #include <iostream>
+#include <set>
+#include <memory>
+#include <vector>
+#include "armas.h"
 using namespace std;
-
 
 class Personaje{
     public:
@@ -11,8 +14,8 @@ class Personaje{
         virtual void bloquear() = 0;
         virtual void provocar() = 0;
         virtual void distraer() = 0;
+        virtual void setArmas(vector<shared_ptr<Arma>> armas) = 0;
 
-        // HACER EL SET
 };
 
 

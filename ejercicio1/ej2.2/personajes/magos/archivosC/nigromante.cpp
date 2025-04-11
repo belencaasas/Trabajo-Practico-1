@@ -9,3 +9,8 @@ void Nigromante::resusitarMuertos(){
     cout << "Actualizacion de su necromancia: " << necromancia << endl;
     
 }
+
+void Nigromante::age(){
+    int edad = 50;
+    cout << "La edad del nigromante es " << edad << endl; 
+}

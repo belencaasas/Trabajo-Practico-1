@@ -25,3 +25,8 @@ void Guerreros::distraer(){
     cout << "El guerrero esta distrayendo al enemigo, usando su inteligencia: " << inteligencia << endl;
 
 }
+
+void Guerreros::setArmas(vector<shared_ptr<Arma>> armas){
+    this->armas = armas;
+
+}

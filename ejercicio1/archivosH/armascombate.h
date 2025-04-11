@@ -14,11 +14,12 @@ class ArmasCombate : public Arma{
         ArmasCombate(string tipoDeArma , float peso , int nivelDePoder , int durabilidad , string resistencia) 
         : tipoDeArma(tipoDeArma) , peso(peso) , nivelDePoder(nivelDePoder) , durabilidad(durabilidad), resistencia(resistencia){} 
 
+        virtual void alcance() = 0;
 
-        virtual void usar() override;
-        virtual void golpear()override;
-        virtual void mejorar()override;
-        virtual void destruir()override;
-        virtual void verDurabilidad()override;
+        void usar() override;
+        void golpear()override;
+        void mejorar()override;
+        void destruir()override;
+        void verDurabilidad()override;
 
 };

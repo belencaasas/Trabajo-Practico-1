@@ -1,5 +1,6 @@
 #include "personajes.h"
 
+
 class Guerreros: public Personaje{
     public:
         float vida; 
@@ -7,11 +8,15 @@ class Guerreros: public Personaje{
         float defensa; 
         float inteligencia;
         float agilidad;
+        vector<shared_ptr<Arma>> armas;
         Guerreros(float vida, float ataque, float defensa, float inteligencia, float agilidad): vida(vida), ataque(ataque), defensa(defensa), inteligencia(inteligencia), agilidad(agilidad){}
        
-        virtual void recargarEnergia() override;
-        virtual void atacar() override;
-        virtual void bloquear() override;
-        virtual void provocar() override;
-        virtual void distraer() override;
+        virtual void maldad() = 0;
+
+        void recargarEnergia() override;
+        void atacar() override;
+        void bloquear() override;
+        void provocar() override;
+        void distraer() override;
+        void setArmas(vector<shared_ptr<Arma>> armas) override;
 };

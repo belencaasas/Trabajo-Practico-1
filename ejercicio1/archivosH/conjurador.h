@@ -5,4 +5,6 @@ class Conjugador: public Magos{
         Conjugador(); 
         int carisma; // capacidad de comunicacion con entidades
         virtual void invocarCriaturas();
+        void age() override;
+
 };

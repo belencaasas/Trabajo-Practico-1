@@ -5,6 +5,7 @@ class Amuleto: public ItemsMagicos{
         Amuleto();
         //atributo
         string poder; 
-
         virtual void habilidadActiva();
+        void reparar() override;
+
 };

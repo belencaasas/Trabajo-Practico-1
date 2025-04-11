@@ -5,4 +5,5 @@ class Baston : public ItemsMagicos{
         Baston();
         int fuerzaEncantamiento; 
         virtual void activarEncantamiento();
+        void reparar() override;
 };
