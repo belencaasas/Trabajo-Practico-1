@@ -22,4 +22,6 @@ class Guerreros: public Personaje{
         void setArmas(vector<shared_ptr<Arma>> armas) override;
         vector<shared_ptr<Arma>> getArmas() override;
 
+        int getVida();
+        void reducirVida();
     };

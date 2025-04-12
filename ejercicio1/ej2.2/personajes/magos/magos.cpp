@@ -31,3 +31,17 @@ void Magos::setArmas(vector<shared_ptr<Arma>> armas){
 vector<shared_ptr<Arma>> Magos::getArmas(){
     return armas;
 }
+
+int Magos::getVida(){
+    return vida;
+} 
+
+void Magos::reducirVida(){
+    vida -= 10; 
+    if (vida == 0){
+        cout << "El personaje se quedo sin vida." << endl;
+    }
+    else { 
+        cout << "Vida restante: " << vida << endl;
+    }
+}

@@ -34,3 +34,17 @@ void Guerreros::setArmas(vector<shared_ptr<Arma>> armas){
 vector<shared_ptr<Arma>> Guerreros::getArmas(){
     return armas;
 }
+
+int Guerreros::getVida(){
+    return vida;
+} 
+
+void Guerreros::reducirVida(){
+    vida -= 10; 
+    if (vida == 0){
+        cout << "El personaje se quedo sin vida." << endl;
+    } 
+    else { 
+        cout << "Vida restante: " << vida << endl;
+    }
+}

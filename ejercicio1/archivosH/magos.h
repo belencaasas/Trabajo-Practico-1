@@ -20,9 +20,12 @@ class Magos: public Personaje{
         void bloquear() override;
         void provocar() override;
         void distraer() override;
+
         void setArmas(vector<shared_ptr<Arma>> armas) override;
         vector<shared_ptr<Arma>> getArmas() override;
-
+        
+        int getVida();
+        void reducirVida();
 
 
 };
