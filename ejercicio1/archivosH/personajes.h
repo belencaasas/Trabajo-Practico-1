@@ -15,6 +15,8 @@ class Personaje{
         virtual void provocar() = 0;
         virtual void distraer() = 0;
         virtual void setArmas(vector<shared_ptr<Arma>> armas) = 0;
+        virtual string getNombre() = 0;
+        virtual vector<shared_ptr<Arma>> getArmas() = 0;
 
 };
 

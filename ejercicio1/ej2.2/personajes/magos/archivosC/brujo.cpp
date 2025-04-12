@@ -13,4 +13,8 @@ void Brujo::pactarconDemonios(){
 void Brujo::age(){
     int edad = 100;
     cout << "La edad del brujo es " << edad << endl; 
+} 
+
+string Brujo::getNombre(){
+    return "Brujo";
 }

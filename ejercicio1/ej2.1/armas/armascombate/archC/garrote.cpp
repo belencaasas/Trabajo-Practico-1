@@ -12,3 +12,6 @@ void Garrote::alcance(){
     int alcance = 40;
     cout << "El alcance del garrote es de " << alcance << endl;
 }
+string Garrote::getNombre(){
+    return "Garrote";
+}

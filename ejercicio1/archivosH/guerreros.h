@@ -1,4 +1,5 @@
 #include "personajes.h"
+#pragma once 
 
 
 class Guerreros: public Personaje{
@@ -19,4 +20,6 @@ class Guerreros: public Personaje{
         void provocar() override;
         void distraer() override;
         void setArmas(vector<shared_ptr<Arma>> armas) override;
-};
+        vector<shared_ptr<Arma>> getArmas() override;
+
+    };

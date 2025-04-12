@@ -1,4 +1,5 @@
 #include "armas.h"
+#pragma once 
 
 class ArmasCombate : public Arma{ 
     public:

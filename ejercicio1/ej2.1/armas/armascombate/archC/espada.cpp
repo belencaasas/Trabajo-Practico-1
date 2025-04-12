@@ -14,3 +14,7 @@ void Espada::alcance(){
     int alcance = 60;
     cout << "El alcance de la espada es de " << alcance << endl;
 }
+
+string Espada::getNombre(){
+    return "Espada";
+}

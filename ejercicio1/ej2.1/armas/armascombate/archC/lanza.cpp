@@ -12,3 +12,7 @@ void Lanza::alcance(){
     int alcance = 90;
     cout << "El alcance de la lanza es de " << alcance << endl;
 }
+
+string Lanza::getNombre(){
+    return "Lanza";
+}

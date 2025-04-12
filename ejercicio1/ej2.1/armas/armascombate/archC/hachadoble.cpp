@@ -10,3 +10,7 @@ void HachaDoble::alcance(){
     int alcance = 80;
     cout << "El alcance del hacha doble es de " << alcance << endl;
 }
+
+string HachaDoble::getNombre(){
+    return "Hacha Doble";
+}

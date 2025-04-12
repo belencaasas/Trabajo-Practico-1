@@ -13,4 +13,8 @@ void Conjugador::invocarCriaturas(){
 void Conjugador::age(){
     int edad = 60;
     cout << "La edad del conjugador es " << edad << endl; 
+} 
+
+string Conjugador::getNombre(){
+    return "Conjugador";
 }

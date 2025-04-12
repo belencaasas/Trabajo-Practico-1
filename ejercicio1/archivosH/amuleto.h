@@ -1,11 +1,14 @@
+#pragma once 
 #include "itemsmagicos.h"
 
 class Amuleto: public ItemsMagicos{
     public: 
         Amuleto();
-        //atributo
+        virtual ~Amuleto(){}
+        
         string poder; 
         virtual void habilidadActiva();
         void reparar() override;
+        string getNombre() override; //nuevo
 
 };

@@ -22,4 +22,3 @@ void ItemsMagicos::destruir(){
 void ItemsMagicos::verDurabilidad(){
     cout << "La durabilidad del item magico: " << tipoDeItem << " es " << durabilidad << endl;
 }
-

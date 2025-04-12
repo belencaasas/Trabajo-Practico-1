@@ -12,4 +12,8 @@ void Paladin::maldad(){
     string maldad = "nula" ;
     cout << "La maldad del paladin es " << maldad << endl;
 
+} 
+
+string Paladin::getNombre(){
+    return "Paladin";
 }

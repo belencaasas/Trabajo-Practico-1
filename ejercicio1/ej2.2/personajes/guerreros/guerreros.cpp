@@ -30,3 +30,7 @@ void Guerreros::setArmas(vector<shared_ptr<Arma>> armas){
     this->armas = armas;
 
 }
+
+vector<shared_ptr<Arma>> Guerreros::getArmas(){
+    return armas;
+}

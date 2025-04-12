@@ -15,3 +15,7 @@ void Baston::reparar(){
     durabilidad += 30; //puede mejorar su estado original 
     cout << "El baston se ha reparado, su durabilidad es: " << durabilidad << endl;
 }
+
+string Baston::getNombre(){
+    return "Baston";
+}

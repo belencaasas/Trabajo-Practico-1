@@ -12,3 +12,7 @@ void Gladiador::maldad(){
     cout << "La maldad del gladiados es " << maldad << endl;
 
 }
+
+string Gladiador::getNombre(){
+    return "Gladiador";
+}

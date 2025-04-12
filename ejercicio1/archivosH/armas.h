@@ -11,6 +11,7 @@ class Arma {
         virtual void mejorar() = 0; 
         virtual void destruir() = 0;
         virtual void verDurabilidad() = 0;
+        virtual string getNombre() = 0;
 
         virtual ~Arma() = default;
 };

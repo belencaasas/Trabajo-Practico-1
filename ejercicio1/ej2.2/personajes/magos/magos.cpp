@@ -27,3 +27,7 @@ void Magos::setArmas(vector<shared_ptr<Arma>> armas){
     this->armas = armas;
 
 }
+
+vector<shared_ptr<Arma>> Magos::getArmas(){
+    return armas;
+}

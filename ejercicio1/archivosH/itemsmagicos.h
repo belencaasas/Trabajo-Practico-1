@@ -1,4 +1,6 @@
 #include "armas.h"
+#pragma once 
+
 
 class ItemsMagicos: public Arma{
     public: 

@@ -13,3 +13,7 @@ void Mercenario::maldad(){
     cout << "La maldad del mercenario es " << maldad << endl;
 
 }
+
+string Mercenario::getNombre(){
+    return "Mercenario";
+}

@@ -1,7 +1,10 @@
 #pragma once 
 #include <memory>
 #include <string>
-#include "../ejercicio1/archivosH/amuleto.h"
+#include "../ejercicio1/archivosH/personajes.h"
+#include "../ejercicio1/archivosH/armas.h"
+
+/*#include "../ejercicio1/archivosH/amuleto.h"
 #include "../ejercicio1/archivosH/barbaro.h"
 #include "../ejercicio1/archivosH/baston.h"
 #include "../ejercicio1/archivosH/brujo.h"
@@ -18,7 +21,7 @@
 #include "../ejercicio1/archivosH/mercenario.h"
 #include "../ejercicio1/archivosH/nigromante.h"
 #include "../ejercicio1/archivosH/paladin.h"
-#include "../ejercicio1/archivosH/pocion.h"
+#include "../ejercicio1/archivosH/pocion.h"*/
 
 
 using namespace std; 

@@ -11,4 +11,8 @@ void Hechicero::leerFuturo(){
 void Hechicero::age(){
     int edad = 70;
     cout << "La edad del hechicero es " << edad << endl; 
+} 
+
+string Hechicero::getNombre(){
+    return "Hechicero";
 }

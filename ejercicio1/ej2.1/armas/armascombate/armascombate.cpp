@@ -22,3 +22,6 @@ void ArmasCombate::destruir(){
 void ArmasCombate::verDurabilidad(){
     cout << "La durabilidad del arma de combate: " << tipoDeArma << " es " << durabilidad << endl; 
 }
+
+
+

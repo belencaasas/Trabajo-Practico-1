@@ -13,3 +13,7 @@ void Amuleto::reparar(){
     durabilidad += 30; //puede mejorar su estado original 
     cout << "El amuleto se ha reparado, su durabilidad es: " << durabilidad << endl;
 }
+
+string Amuleto::getNombre(){
+    return "Amuleto";
+}

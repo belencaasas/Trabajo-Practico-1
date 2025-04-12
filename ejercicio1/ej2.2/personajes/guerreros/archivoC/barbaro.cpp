@@ -12,4 +12,8 @@ void Barbaro::maldad(){
     string maldad = "media" ;
     cout << "La maldad del barbaro es " << maldad << endl;
 
+} 
+
+string Barbaro::getNombre(){
+    return "Barbaro";
 }

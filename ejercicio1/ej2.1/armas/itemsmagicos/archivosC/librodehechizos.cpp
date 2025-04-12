@@ -13,3 +13,7 @@ void LibroDeHechizos::reparar(){
     durabilidad += 30; //puede mejorar su estado original 
     cout << "El libro de hechizos se ha reparado, su durabilidad es: " << durabilidad << endl;
 }
+
+string LibroDeHechizos::getNombre(){
+    return "Libro De Hechizos";
+}
