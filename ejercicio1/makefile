@@ -1,0 +1,2 @@
+make:
+	g++ ej2.2/personajes/guerreros/archivoC/barbaro.cpp ej2.2/personajes/magos/archivosC/brujo.cpp ej2.1/armas/armascombate/archC/espada.cpp ej2.1/armas/itemsmagicos/archivosC/amuleto.cpp ej2.1/armas/itemsmagicos/itemsmagicos.cpp ej2.1/armas/armascombate/armascombate.cpp ej2.2/personajes/guerreros/guerreros.cpp ej2.2/personajes/magos/magos.cpp main.cpp -Wall -g -o ejercicio

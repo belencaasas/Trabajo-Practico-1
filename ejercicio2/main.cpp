@@ -6,14 +6,13 @@
 using namespace std;
 
 int main(){
-    srand(time(NULL));
+    srand(time(0));
 
     int cantidadPersonajes = rand() % 5 + 3; 
     vector<shared_ptr<Personaje>> personajes;
-    cout << "---CREANDO " << cantidadPersonajes << " PERSONAJES CON ARMAS---" << endl; 
+    cout << "---CREANDO " << cantidadPersonajes << " PERSONAJES CON ARMAS---" << endl;
 
-    PersonajeFactory::crearPersonajeConArma();
-
+    
     for (int i = 0 ; i < cantidadPersonajes; i++){
         personajes.push_back(PersonajeFactory::crearPersonajeConArma());
     } 

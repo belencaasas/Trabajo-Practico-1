@@ -5,7 +5,7 @@
 #include "archivosH/brujo.h"
 using namespace std;
 
-/*int main(){
+int main(){
     cout << "------PROBANDO ARMAS------\n" << endl;
 
     cout << "......ESPADA......";
@@ -58,4 +58,4 @@ using namespace std;
 
     return 0; 
 
-}*/
+}

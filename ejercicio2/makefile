@@ -1,0 +1,2 @@
+make:
+	g++ -I ../ejercicio1/archivosH/ -g main.cpp ejercicio2.cpp ../ejercicio1/ej2.2/personajes/magos/archivosC/*.cpp ../ejercicio1/ej2.2/personajes/guerreros/archivoC/*.cpp ../ejercicio1/ej2.1/armas/armascombate/archC/*.cpp ../ejercicio1/ej2.1/armas/itemsmagicos/archivosC/*.cpp ../ejercicio1/ej2.1/armas/armascombate/armascombate.cpp ../ejercicio1/ej2.1/armas/itemsmagicos/itemsmagicos.cpp ../ejercicio1/ej2.2/personajes/guerreros/guerreros.cpp ../ejercicio1/ej2.2/personajes/magos/magos.cpp -o ejercicio2

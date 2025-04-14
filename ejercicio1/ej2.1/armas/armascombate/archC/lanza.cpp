@@ -5,7 +5,7 @@ Lanza::Lanza():
 
 void Lanza::mejorarAlcance(){
     this->_alcance += 10;
-    cout << "Se ha mejorado el alcance de la lanza, ahora es de: " << alcance << endl;
+    cout << "Se ha mejorado el alcance de la lanza, ahora es de: " << _alcance << endl;
 }
 
 void Lanza::alcance(){
