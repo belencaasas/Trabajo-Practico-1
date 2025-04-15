@@ -8,8 +8,7 @@ class Nigromante: public Magos{
 
         int necromancia; //habilidad para levantar y controlar muertos 
         virtual void resusitarMuertos();
+
         void age() override;
-        string getNombre() override; //nuevo
-
-
+        string getNombre() override; 
 };

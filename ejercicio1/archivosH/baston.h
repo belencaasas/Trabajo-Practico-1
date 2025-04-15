@@ -6,9 +6,10 @@ class Baston : public ItemsMagicos{
         Baston();
         virtual ~Baston(){}
 
-        int fuerzaEncantamiento; 
+        int fuerzaEncantamiento; //cantidad de fuerza que tiene el baston 
         virtual void activarEncantamiento();
+
         void reparar() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 };

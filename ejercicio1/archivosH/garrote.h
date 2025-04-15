@@ -8,8 +8,7 @@ class Garrote: public ArmasCombate{
 
         int gravedadDeGolpe;
         virtual void golpear();
+
         void alcance()override;
-        string getNombre() override; //nuevo
-
-
+        string getNombre() override; 
 };

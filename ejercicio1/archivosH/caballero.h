@@ -8,8 +8,9 @@ class Caballero: public Guerreros{
 
         int habilidadConArmas;
         virtual void desafiar();
+
         void maldad() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 
 };

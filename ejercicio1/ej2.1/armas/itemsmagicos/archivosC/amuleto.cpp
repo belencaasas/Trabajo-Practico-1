@@ -6,7 +6,7 @@ Amuleto::Amuleto():
 {}
 
 void Amuleto::habilidadActiva(){
-    cout << "Se ha activado la habilidad dde curar." << endl;
+    cout << "Se ha activado la habilidad de curar." << endl;
 }
 
 void Amuleto::reparar(){

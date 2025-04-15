@@ -6,10 +6,11 @@ class Lanza: public ArmasCombate{
         Lanza();
         virtual ~Lanza(){}
 
-        int _alcance;
-        virtual void mejorarAlcance();
+        string material;
+        virtual void mostrarMateria();
+
         void alcance()override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 
 };

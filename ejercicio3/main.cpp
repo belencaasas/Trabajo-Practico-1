@@ -14,17 +14,17 @@
 using namespace std;
 
 int main() {
-    srand(time(nullptr)); // Semilla para aleatoriedad
+    srand(time(nullptr)); 
 
-    // === Jugador 1 fijo ===
+    // === Crea el Jugador 1 fijo ===
     shared_ptr<Personaje> jugador1 = make_shared<Brujo>();
     shared_ptr<Arma> arma1 = make_shared<Baston>();
     jugador1->setArmas({arma1});
 
-    cout << "Tu personaje es un " << jugador1->getNombre()
-         << " con un2 " << arma1->getNombre() << ".\n" << endl;
+    cout << "\nTu personaje es un " << jugador1->getNombre()
+         << " con un " << arma1->getNombre() << ".\n" << endl;
     
-    // === Jugador 2 aleatorio ===
+    // === Crea el Jugador 2 de manera aleatoria ===
     shared_ptr<Personaje> jugador2 = PersonajeFactory::crearPersonaje();
     cout << "El enemigo sera un " << jugador2->getNombre() << "." << endl;
 

@@ -8,8 +8,9 @@ class LibroDeHechizos : public ItemsMagicos{
 
         string tipoDeHechizo; //maldicion - curar 
         virtual void usarHechizo();
+
         void reparar() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 
 };

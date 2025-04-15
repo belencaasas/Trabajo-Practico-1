@@ -22,8 +22,7 @@
 #include "../ejercicio1/archivosH/paladin.h"
 #include "../ejercicio1/archivosH/pocion.h"
 
-shared_ptr<Personaje> PersonajeFactory::crearPersonaje(){
-    //srand(time(NULL));
+shared_ptr<Personaje> PersonajeFactory::crearPersonaje(){ // crea un personaje, el tipo de personaje lo crea de forma aleatoria
     int numero = rand() % 9 + 1; //(9-1 + 1) + 1
 
     switch (numero){
@@ -40,8 +39,7 @@ shared_ptr<Personaje> PersonajeFactory::crearPersonaje(){
     }
 } 
 
-shared_ptr<Arma> PersonajeFactory::crearArma(){
-    //srand(time(NULL));
+shared_ptr<Arma> PersonajeFactory::crearArma(){ // crea un arma, el tipo de personaje lo crea de forma aleatoria
     int numero = rand() % 9 + 1; //(9-1 + 1) + 1
     switch (numero){
         case 1: return make_shared<Baston>();
@@ -59,7 +57,6 @@ shared_ptr<Arma> PersonajeFactory::crearArma(){
 
 shared_ptr<Personaje> PersonajeFactory::crearPersonajeConArma(){
     shared_ptr<Personaje> personaje = crearPersonaje();
-    //srand(time(NULL));
     int cantDeArmas = rand() % 3;
     vector<shared_ptr<Arma>> armas;
 

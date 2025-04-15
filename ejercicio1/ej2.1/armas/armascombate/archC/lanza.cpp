@@ -1,11 +1,10 @@
 #include "../../../../archivosH/lanza.h"
 
 Lanza::Lanza():
-    ArmasCombate("lanza", 20, 5, 25, "poca" ), _alcance(50){}
+    ArmasCombate("lanza", 20, 5, 25, "poca" ), material("madera"){}
 
-void Lanza::mejorarAlcance(){
-    this->_alcance += 10;
-    cout << "Se ha mejorado el alcance de la lanza, ahora es de: " << _alcance << endl;
+void Lanza::mostrarMateria(){
+    cout << "El material de la Lanza es " << material << endl;
 }
 
 void Lanza::alcance(){

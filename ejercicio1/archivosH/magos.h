@@ -4,16 +4,18 @@
 
 class Magos: public Personaje{
     public:
-        float vida; 
-        float ataque; 
-        float defensa; 
-        float inteligencia;
-        float agilidad;
+        float vida; //cantidad de vida que tiene el personaje
+        float ataque;  //habilidad de ataque de cada personaje
+        float defensa; //habilidad de defensa de cada personaje
+        float inteligencia; //la inteligencia de cada personaje
+        float agilidad; //la agilidad que posee cada personaje
+        vector<shared_ptr<Arma>> armas; //vector con las armas de cada personajes   
 
-        vector<shared_ptr<Arma>> armas;
         Magos(float vida, float ataque, float defensa, float inteligencia, float agilidad): vida(vida), ataque(ataque), defensa(defensa), inteligencia(inteligencia), agilidad(agilidad){}
 
-        virtual void age() = 0;
+        virtual void age() = 0;//la cantidad de maldad que posee cada personaje
+        virtual string getNombre() = 0; //devuelve el nombrre de cada mago
+        
 
         void recargarEnergia() override;
         void atacar() override;
@@ -23,7 +25,6 @@ class Magos: public Personaje{
 
         void setArmas(vector<shared_ptr<Arma>> armas) override;
         vector<shared_ptr<Arma>> getArmas() override;
-        
         int getVida() override;
         void reducirVida() override;
 

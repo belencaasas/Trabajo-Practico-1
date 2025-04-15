@@ -9,6 +9,7 @@ class Barbaro: public Guerreros{
 
         int rabia; //cant de energia que se acumula para atacar 
         virtual void golpeBrutal();
+
         void maldad() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 };

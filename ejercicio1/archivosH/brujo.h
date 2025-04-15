@@ -8,7 +8,8 @@ class Brujo: public Magos{
 
         int almasRecogidas; // cant de armas brujo ha recolectado 
         virtual void pactarconDemonios();
+
         void age() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 };

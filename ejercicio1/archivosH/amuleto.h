@@ -8,7 +8,8 @@ class Amuleto: public ItemsMagicos{
         
         string poder; 
         virtual void habilidadActiva();
+        
         void reparar() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 };

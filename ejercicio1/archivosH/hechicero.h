@@ -8,8 +8,7 @@ class Hechicero: public Magos{
 
         int sabiduria; 
         virtual void leerFuturo();
+
         void age() override;
-        string getNombre() override; //nuevo
-
-
+        string getNombre() override; 
 };

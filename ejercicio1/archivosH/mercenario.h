@@ -6,10 +6,11 @@ class Mercenario: public Guerreros{
         Mercenario();
         virtual ~Mercenario(){}
 
-        int punteria;
+        int punteria; // habilidad de usar el terreno a su favor 
         virtual void usarPunteria(); //usa el terreno a su favor --> escondite ...
+
         void maldad() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 
 };

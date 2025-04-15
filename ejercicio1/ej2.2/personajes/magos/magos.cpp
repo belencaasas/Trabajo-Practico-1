@@ -1,7 +1,7 @@
 #include "../../../archivosH/magos.h"
 
 void Magos::recargarEnergia(){
-    cout << "Recargando energia..."<< endl; 
+    cout << "Recargando energia..."; 
     vida += 15; 
     cout << "Energia recargada. Vida actual: " << vida << endl;
 }

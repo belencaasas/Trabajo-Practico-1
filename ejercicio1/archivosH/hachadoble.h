@@ -8,8 +8,7 @@ class HachaDoble: public ArmasCombate{
 
         int fuerzaRequerida; //fuerza que se necesita para lanzarla
         virtual void lanzar();
+
         void alcance()override;
-        string getNombre() override; //nuevo
-
-
+        string getNombre() override; 
 };

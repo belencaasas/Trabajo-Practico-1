@@ -6,10 +6,11 @@ class Pocion: public ItemsMagicos{
         Pocion();
         virtual ~Pocion(){}
 
-        string efecto;
+        string efecto; //efecto que tiene la pocion
         virtual void usarPocion(); 
+
         void reparar() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 
 };

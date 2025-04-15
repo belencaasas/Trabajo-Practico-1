@@ -6,9 +6,9 @@
 using namespace std;
 
 int main(){
-    cout << "------PROBANDO ARMAS------\n" << endl;
+    cout << "\n------PROBANDO ARMAS------\n" << endl;
 
-    cout << "......ESPADA......";
+    cout << "...........ESPADA...........\n";
     Espada espada; 
     espada.afilar();
 
@@ -20,7 +20,7 @@ int main(){
 
     cout << endl;
 
-    cout <<"......AMULETO......";
+    cout <<"...........AMULETO...........\n";
     Amuleto amuleto;
     amuleto.habilidadActiva();
 
@@ -32,7 +32,7 @@ int main(){
 
     cout << "\n------PROBANDO PERSONAJES------\n" << endl;
 
-    cout <<"......BARBARO......";
+    cout <<".............BARBARO.............\n";
 
     Barbaro barbaro;
     barbaro.golpeBrutal();
@@ -45,7 +45,7 @@ int main(){
 
     cout << endl; 
 
-    cout <<"......BRUJO......";
+    cout <<"............BRUJO...........\n";
 
     Brujo brujo; 
     brujo.pactarconDemonios();

@@ -8,7 +8,8 @@ class Espada: public ArmasCombate{
 
         int filo;
         virtual void afilar();
+        
         void alcance() override;
-        string getNombre() override; //nuevo
+        string getNombre() override; 
 
 };

@@ -8,8 +8,7 @@ class Gladiador: public Guerreros{
 
         int fuerza;
         virtual void llamaAlPublico();
+        
         void maldad() override;
-        string getNombre() override; //nuevo
-
-
+        string getNombre() override; 
 };

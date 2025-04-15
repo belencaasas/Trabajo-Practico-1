@@ -4,7 +4,7 @@ Brujo::Brujo():
     Magos(100,60,60,90,20), almasRecogidas(50){}
 
 void Brujo::pactarconDemonios(){ 
-    cout << "Brujo pactando con demonios.." << endl;
+    cout << "Brujo pactando con demonios...";
     this->almasRecogidas += 5; 
     cout << "Cantidad de almas recogidas actualizadas: " << almasRecogidas << endl;
     
