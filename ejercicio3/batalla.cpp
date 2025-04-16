@@ -1,8 +1,8 @@
 #include "batalla.h"
 
-Batalla::Batalla(shared_ptr<Personaje> p1 , shared_ptr<Personaje> p2){
-    jugador1 = p1; 
-    jugador2 = p2; 
+Batalla::Batalla(unique_ptr<Personaje> p1 , unique_ptr<Personaje> p2){
+    jugador1 = move(p1); 
+    jugador2 = move(p2); 
 }
 
 void Batalla::mostrarEstado(){
@@ -33,7 +33,7 @@ OpcionAtaque Batalla::obtenerOpcionJ2(){
     return static_cast<OpcionAtaque>(opcion);
 } 
 
-void Batalla::mostrarAccion(shared_ptr<Personaje> atacante, OpcionAtaque opcion, shared_ptr<Personaje> defensor){
+void Batalla::mostrarAccion(Personaje* atacante, OpcionAtaque opcion, Personaje* defensor){
     cout << atacante->getNombre() << " ataca con "; 
     switch (opcion){
 
@@ -54,8 +54,8 @@ void Batalla::mostrarAccion(shared_ptr<Personaje> atacante, OpcionAtaque opcion,
 } 
 
 void Batalla::ejecutar(OpcionAtaque j1 , OpcionAtaque j2){
-    mostrarAccion(jugador1, j1 , jugador2);
-    mostrarAccion(jugador2, j2, jugador1);
+    mostrarAccion(jugador1.get(), j1 , jugador2.get());
+    mostrarAccion(jugador2.get(), j2, jugador1.get());
 
     if (j1 == j2){
         cout << "Empate, ningun jugador recibe daño. " << endl; 

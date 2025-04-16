@@ -12,7 +12,7 @@ void Guerreros::atacar(){
 
 void Guerreros::bloquear(){
     vida -= 20;
-    cout << "El guerrero bloqua el ataque con defensa de: " << defensa<< " Vida actual: " << endl;
+    cout << "El guerrero bloqua el ataque con defensa de: " << defensa<< " Vida actual: "<< vida << endl;
 
 }
 
@@ -26,12 +26,11 @@ void Guerreros::distraer(){
 
 }
 
-void Guerreros::setArmas(vector<shared_ptr<Arma>> armas){
-    this->armas = armas;
-
+void Guerreros::setArmas(unique_ptr<Arma> arma){ 
+    armas.push_back(move(arma));
 }
 
-vector<shared_ptr<Arma>> Guerreros::getArmas(){
+const vector<unique_ptr<Arma>>& Guerreros::getArmas() const{ 
     return armas;
 }
 

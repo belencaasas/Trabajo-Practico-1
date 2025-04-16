@@ -9,7 +9,7 @@ class Magos: public Personaje{
         float defensa; //habilidad de defensa de cada personaje
         float inteligencia; //la inteligencia de cada personaje
         float agilidad; //la agilidad que posee cada personaje
-        vector<shared_ptr<Arma>> armas; //vector con las armas de cada personajes   
+        vector<unique_ptr<Arma>> armas; //vector con las armas de cada personajes   
 
         Magos(float vida, float ataque, float defensa, float inteligencia, float agilidad): vida(vida), ataque(ataque), defensa(defensa), inteligencia(inteligencia), agilidad(agilidad){}
 
@@ -23,8 +23,8 @@ class Magos: public Personaje{
         void provocar() override;
         void distraer() override;
 
-        void setArmas(vector<shared_ptr<Arma>> armas) override;
-        vector<shared_ptr<Arma>> getArmas() override;
+        void setArmas(unique_ptr<Arma> armas) override; 
+        const vector<unique_ptr<Arma>>& getArmas() const override; 
         int getVida() override;
         void reducirVida() override;
 

@@ -23,12 +23,12 @@ void Magos::distraer(){
     cout << "El mago esta distrayendo al enemigo, usando su inteligencia: " << inteligencia << endl;
 }
 
-void Magos::setArmas(vector<shared_ptr<Arma>> armas){
-    this->armas = armas;
+void Magos::setArmas(unique_ptr<Arma> arma){  
+    armas.push_back(move(arma));
 
 }
 
-vector<shared_ptr<Arma>> Magos::getArmas(){
+const vector<unique_ptr<Arma>>& Magos::getArmas() const{ 
     return armas;
 }
 
